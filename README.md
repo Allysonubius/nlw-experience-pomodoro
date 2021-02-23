@@ -2,7 +2,7 @@
 
 ### 22 de Feveiro - Rumo ao próximo nível
 
-<img src="images/ExperienceBar.jpeg">
+<img src="images/ExperienceBar.jpeg" width  ="100%">
 
 <h4 align="center">Criado barra de experience no primeiro dia.</h4>
 
