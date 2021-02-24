@@ -1,8 +1,8 @@
 import React from "react";
-import { ExperienceBar } from "./src/components/ExperienceBar";
-import { Profile } from "./src/components/Profile";
+import { ExperienceBar } from "../components/ExperienceBar";
+import { Profile } from "../components/Profile";
 
-import styles from './src/styles/pages/Home.module.css';
+import styles from '../src/styles/pages/Home.module.css';
 
 export default function Home() {
   return (
