@@ -1,10 +1,10 @@
-import styles from '../styles/components/CompletedChallenges.module.css'
+import styles from './CompletedChallenges.module.css'
 
 export function CompletedChallenges() {
     return (
-        <div className="styles.completedChallengesContainer">
+        <div className={styles.completedChallengesContainer}>
             <span>Desafios completos</span>
-            <span></span>
+            <span>5</span>
         </div>
     )
 }
