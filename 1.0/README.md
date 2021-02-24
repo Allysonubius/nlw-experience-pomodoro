@@ -2,7 +2,7 @@
 
 ### 22 de Feveiro - Rumo ao próximo nível
 
-<img src="images/ExperienceBar.jpeg" width  ="100%">
+<img src="https://github.com/Allysonubius/nlw-experience-pomodoro/blob/main/images/ExperienceBar.jpeg?raw=true" width  ="100%">
 
 <h4 align="center">Criado barra de experience no primeiro dia.</h4>
 
