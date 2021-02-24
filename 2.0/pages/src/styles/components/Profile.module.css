@@ -23,3 +23,7 @@
     font-size: 1rem;
     margin-top: 0.5rem;
 }
+
+.profileContainer div p img {
+    margin-right: 0.5rem;
+}
