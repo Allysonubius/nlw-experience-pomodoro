@@ -22,7 +22,7 @@
     background: var(--green);
 }
 
-span.currenceExperience {
+.currenceExperience {
     position: absolute;
     top: 12px;
     transform: translate(-50%);
