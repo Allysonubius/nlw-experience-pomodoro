@@ -1,10 +1,15 @@
 .experienceBar {
     display: flex;
     align-items: center;
+    background-color: rgb(76, 14, 247);
+    border-radius: 70px;
+    padding: 30px;
 }
 
 .experienceBar span {
     font-size: 1rem;
+    color: white;
+    font-size: 500;
 }
 
 .experienceBar>div {

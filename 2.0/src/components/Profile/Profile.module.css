@@ -1,6 +1,8 @@
 .profileContainer {
     display: flex;
     align-items: center;
+    background-color: rgb(14, 181, 247);
+    border-radius: 70px;
 }
 
 .profileContainer>img {
