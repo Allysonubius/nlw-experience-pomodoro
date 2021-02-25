@@ -5,6 +5,10 @@
     border-radius: 70px;
 }
 
+.profileContainer:hover {
+    background-color: gray;
+}
+
 .profileContainer>img {
     width: 5.5rem;
     height: 5.5rem;
@@ -13,6 +17,11 @@
 
 .profileContainer div {
     margin-left: 1.5rem;
+}
+
+.profileContainer div p {
+    color: white;
+    font-size: 600;
 }
 
 .profileContainer div strong {
@@ -28,4 +37,5 @@
 
 .profileContainer div p img {
     margin-right: 0.5rem;
+    width: 20px;
 }
