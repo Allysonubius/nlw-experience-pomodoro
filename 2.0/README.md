@@ -6,6 +6,12 @@
 
 <h4 align="center">Criado temporizador com minutos e segundos e perfil usuario .</h4>
 
+### 24 de Feveiro - Contexto e componentes
+
+<img src="https://github.com/Allysonubius/nlw-experience-pomodoro/blob/main/images/24fevereitonlw.jpeg?raw=true" width  ="100%">
+
+<h4 align="center">Criado componentes entre interfaces.</h4>
+
 ### npm `yarn dev`
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
