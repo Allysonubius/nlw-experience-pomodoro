@@ -23,7 +23,7 @@ export default function Home() {
             <ChallengeBox />
           </div>
         </section>
-      </CountdownProvider>
+        </CountdownProvider>
     </div>
   )
 }

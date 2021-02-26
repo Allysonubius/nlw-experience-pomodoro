@@ -5,16 +5,16 @@ import styles from './Countdown.module.css';
 export function Countdown() {
 
     const { 
-        minutos,
-        segundos,
+        minutes,
+        seconds,
         hasFinished,
         isActive,
-        startCountDown,
-        resetCountdown  
+        startCountdown,
+        resetCountDown,
     } = useContext(CountdownContext);
 
-    const [minutosLeft, minutosRight] = String(minutos).padStart(2, '0').split('');
-    const [segundosLeft, segundosRight] = String(segundos).padStart(2, '0').split('');
+    const [minutosLeft, minutosRight] = String(minutes).padStart(2, '0').split('');
+    const [segundosLeft, segundosRight] = String(seconds).padStart(2, '0').split('');
 
     return (
         <div>
@@ -42,7 +42,7 @@ export function Countdown() {
                         <button
                             type="button"
                             className={styles.countdownButtonRed}
-                            onClick={resetCountdown}
+                            onClick={resetCountDown}
                         >
                             FINALIZAR CICLO
                         </button>
@@ -50,7 +50,7 @@ export function Countdown() {
                         <button
                             type="button"
                             className={styles.countdownButtonGreen}
-                            onClick={startCountDown}
+                            onClick={startCountdown}
                         >
                             INICIAR CICLO
                         </button>

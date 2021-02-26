@@ -6,16 +6,16 @@ import styles from './ChallengeBox.module.css';
 export function ChallengeBox(){
 
     const { activeChallenge ,resetChallenge , completeChallenge} = useContext(ChallengesContext);
-    const { resetCountdown } = useContext(CountdownContext);
+    const { resetCountDown } = useContext(CountdownContext);
 
     function handleChallengeSucceeded(){
         completeChallenge();
-        resetCountdown();
+        resetCountDown();
     }
 
     function handleChallengeFailed(){
         resetChallenge();
-        resetCountdown();
+        resetCountDown();
     }
 
     return(
